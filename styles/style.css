@@ -1144,7 +1144,38 @@ button.btn-success.btn-small:hover {
     }
 
 
+    
 
+
+
+
+
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+    .lime-green-font{
+        color: #22AD65;
+        font-size: 44px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .margy-left{
+        margin-left: 0px;
+
+    }
+
+    .project-hero-heading-02 {
+        margin-bottom: 0px;
+    }
+
+    .griddy {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(13rem,1fr));
+        grid-gap: 2rem;
+    }
 
 
   }
